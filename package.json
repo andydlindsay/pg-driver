@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/andydlindsay/pg-driver#readme",
   "dependencies": {
+    "knex": "^0.15.2",
     "pg": "^7.6.1"
   }
 }
