@@ -15,9 +15,10 @@ knex({ a: 'famous_people' })
         last_name,
         birthdate
     })
-    .asCallback((err, result) => {
-        console.log(err);
-        console.log(result);
+    .asCallback((err) => {
+        if (err) {
+            return console.error('Error', err);
+        }
+        console.log('Row inserted');
         knex.destroy();
     });
-    
