@@ -1,0 +1,22 @@
+{
+  "name": "pg-driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andydlindsay/pg-driver.git"
+  },
+  "author": "Andy Lindsay <andydlindsay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andydlindsay/pg-driver/issues"
+  },
+  "homepage": "https://github.com/andydlindsay/pg-driver#readme",
+  "dependencies": {
+    "pg": "^7.6.1"
+  }
+}
